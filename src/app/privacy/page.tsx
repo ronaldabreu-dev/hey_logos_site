@@ -16,7 +16,7 @@ export default function PrivacyPage() {
                 <section>
                     <h2 className="text-xl font-semibold text-white">How We Use Your Information</h2>
                     <p className="mt-2">
-                        The email address you provide is used solely to contact you regarding the Hey Logos product, such as notifying you when the beta is available or sending product updates.
+                        The email address you provide is used solely to contact you regarding the Logos product, such as notifying you when the beta is available or sending product updates.
                     </p>
                 </section>
 

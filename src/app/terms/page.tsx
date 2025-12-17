@@ -8,7 +8,7 @@ export default function TermsPage() {
                 <section>
                     <h2 className="text-xl font-semibold text-white">Acceptance of Terms</h2>
                     <p className="mt-2">
-                        By accessing Hey Logos (the &quot;Service&quot;), you agree to be bound by these Terms of Use. If you do not agree, please do not use the Service.
+                        By accessing Logos (the &quot;Service&quot;), you agree to be bound by these Terms of Use. If you do not agree, please do not use the Service.
                     </p>
                 </section>
 
@@ -23,7 +23,7 @@ export default function TermsPage() {
                 <section>
                     <h2 className="text-xl font-semibold text-white">Limitation of Liability</h2>
                     <p className="mt-2">
-                        To the fullest extent permitted by law, Hey Logos shall not be liable for any indirect, incidental, special, consequential, or punitive damages
+                        To the fullest extent permitted by law, Logos shall not be liable for any indirect, incidental, special, consequential, or punitive damages
                         resulting from your access to or use of (or inability to access or use) the Service.
                         You are responsible for any code or content generated with the assistance of the Service.
                     </p>

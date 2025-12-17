@@ -40,7 +40,7 @@ export default function Home() {
             Talk to your editor like you talk to <span className="bg-gradient-to-r from-blue-400 to-orange-400 bg-clip-text text-transparent">ChatGPT</span>.
           </motion.h1>
           <motion.p variants={fadeInUp} className="mx-auto mt-8 max-w-2xl text-xl text-gray-400">
-            Hey Logos is a voice-first assistant that lets you control your AI coding panel and editor with your voice, so you can keep shipping code even when your hands are busy.
+            Logos is a voice-first assistant that lets you control your AI coding panel and editor with your voice, so you can keep shipping code even when your hands are busy.
           </motion.p>
 
           <motion.div variants={fadeInUp} className="mt-10 flex flex-col items-center justify-center gap-6 sm:flex-row">
@@ -73,7 +73,7 @@ export default function Home() {
             className="mb-16 text-center"
           >
             <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-              Who is Hey Logos for?
+              Who is Logos for?
             </h2>
           </motion.div>
 
@@ -158,7 +158,7 @@ export default function Home() {
             className="mt-20 rounded-xl bg-blue-500/5 p-6 text-center border border-blue-500/10"
           >
             <p className="text-sm text-blue-200">
-              <span className="font-semibold text-blue-100">Note:</span> Hey Logos is a desktop application that integrates with editors like VS Code and Cursor.
+              <span className="font-semibold text-blue-100">Note:</span> Logos is a desktop application that integrates with editors like VS Code and Cursor.
             </p>
           </motion.div>
         </div>
@@ -190,7 +190,7 @@ export default function Home() {
               Join the waitlist
             </h2>
             <p className="mt-4 mb-10 text-gray-400">
-              We&apos;ll email you when Hey Logos is ready for you to try.
+              We&apos;ll email you when Logos is ready for you to try.
             </p>
             <WaitlistForm />
           </motion.div>

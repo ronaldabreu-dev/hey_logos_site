@@ -41,7 +41,7 @@ export function WaitlistForm() {
             <div className="rounded-xl bg-green-500/10 p-6 text-center shadow-sm ring-1 ring-inset ring-green-500/20">
                 <h3 className="text-lg font-semibold text-green-400">You&apos;re on the list!</h3>
                 <p className="mt-2 text-green-200/80">
-                    Thanks for joining. We&apos;ll be in touch as soon as Hey Logos is ready for you.
+                    Thanks for joining. We&apos;ll be in touch as soon as Logos is ready for you.
                 </p>
                 <button
                     onClick={() => setStatus('idle')}
@@ -57,7 +57,7 @@ export function WaitlistForm() {
         <form onSubmit={handleSubmit} className="mx-auto max-w-md space-y-4 rounded-xl bg-white/5 p-6 shadow-2xl ring-1 ring-white/10 backdrop-blur-sm">
             <h3 className="text-xl font-bold text-white">Join the waitlist</h3>
             <p className="text-sm text-gray-400">
-                We&apos;ll email you when Hey Logos is ready for more testers.
+                We&apos;ll email you when Logos is ready for more testers.
             </p>
 
             <div>
@@ -77,12 +77,12 @@ export function WaitlistForm() {
 
             <div>
                 <label htmlFor="usage" className="sr-only">
-                    How would you use Hey Logos? (Optional)
+                    How would you use Logos? (Optional)
                 </label>
                 <textarea
                     id="usage"
                     rows={2}
-                    placeholder="How would you use Hey Logos?"
+                    placeholder="How would you use Logos?"
                     value={usage}
                     onChange={(e) => setUsage(e.target.value)}
                     className="w-full rounded-md border-0 bg-white/5 px-4 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 placeholder:text-gray-500 focus:ring-2 focus:ring-inset focus:ring-blue-500 sm:text-sm sm:leading-6"

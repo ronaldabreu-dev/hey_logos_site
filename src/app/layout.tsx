@@ -15,12 +15,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Hey Logos – Voice-first AI coding assistant",
-  description: "Hey Logos lets you control your editor and AI coding assistant with your voice. Designed for developers, parents, and RSI prevention.",
+  title: "Logos – Voice-first AI coding assistant",
+  description: "Logos lets you control your editor and AI coding assistant with your voice. Designed for developers, parents, and RSI prevention.",
   openGraph: {
-    title: "Hey Logos – Voice-first AI coding assistant",
+    title: "Logos – Voice-first AI coding assistant",
     description: "Control your editor and AI coding assistant with your voice.",
-    siteName: "Hey Logos",
+    siteName: "Logos",
   },
 };
 
@@ -30,7 +30,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="en" className="scroll-smooth" suppressHydrationWarning>
       <body
         className={`${geistSans.variable} ${geistMono.variable} font-sans min-h-screen flex flex-col`}
       >
