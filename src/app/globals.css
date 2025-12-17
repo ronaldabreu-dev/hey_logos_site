@@ -17,3 +17,28 @@ body {
 @utility glow-blue {
   box-shadow: 0 0 40px -10px rgba(59, 130, 246, 0.3);
 }
+
+/* Override standard browser autofill styling */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+textarea:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px #18181b inset !important;
+  /* matches bg-zinc-950 roughly, or slightly lighter for input bg */
+  -webkit-text-fill-color: white !important;
+  transition: background-color 5000s ease-in-out 0s;
+  caret-color: white;
+}
+
+/* Match the specific input background color used in WaitlistForm (bg-white/5 which on zinc-950 is roughly #1f1f22) 
+   Actually, let's use a solid color that matches the visual look of the transparent input on dark bg 
+*/
+input:-webkit-autofill,
+textarea:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px #27272a inset !important;
+  /* Zinc-800/900 mix to match the card feel */
+}
